@@ -67,7 +67,7 @@ return array(
 	'reset_body' => "<dl><dt>Please click below to reset your password for ^site_title.</dt><dd>^url</dd><br><dt>Alternatively, enter the code below into the field provided.</dt><dd><strong>Code: ^code</strong></dd><br><dt>If you did not ask to reset your password, please ignore this message.</dt><br><dt>Thank you,</dt><dt>^site_title</dt></dl><p><small><b><i>Let us know what you think of our services!<br>Takes about a minute to complete our <a href=\"https://www.w3schools.com\">survey</a></i></b></small></p>",
 	'reset_subject' => '^site_title - Reset Forgotten Password',
 
-	'to_handle_prefix' => "^,</p><p>",
+	'to_handle_prefix' => "^,<p></p>",
 
 	'u_registered_body' => "<p>A new user has registered as <strong>^u_handle</strong>.</p><dl><dt>Click below to view the user profile:</dt><dd>^url</dd><br><dt>Thank you,</dt><dt>^site_title</dt></dl><p><small><b><i>Let us know what you think of our services!<br>Takes about a minute to complete our <a href=\"https://www.w3schools.com\">survey</a></i></b></small></p>",
 	'u_registered_subject' => '^site_title has a new registered user to approve',
